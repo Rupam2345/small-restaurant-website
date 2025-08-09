@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+  max-width: 700px;
+  margin: auto;
+  padding: 16px;
+}
+
+/* HEADER */
+header {
+  background: #2C3E50;
+  color: white;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.5rem;
+}
+
+nav a {
+  color: #F9A825;
+  margin-left: 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* HERO */
+.hero {
+  position: relative;
+  margin-top: 20px;
+}
+
+.hero-img {
+  width: 100%;
+  border-radius: 10px;
+  filter: brightness(70%);
+}
+
+.hero-text {
+  position: relative;
+  top: 20%;
+  left: 10%;
+  color: white;
+  max-width: 80%;
+}
+
+
+.hero-text h1 {
+  font-size: 1.8rem;
+  font-family: 'Poppins', sans-serif;
+}
+
+.cta-button {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 16px;
+  background-color: #1B5E20;
+  color: white;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* SECTION */
+.section {
+  margin-top: 40px;
+}
+
+.section h2 {
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 10px;
+  color: #C62828;
+}
+
+/* MENU */
+.menu-block {
+  margin-bottom: 20px;
+}
+
+.menu-block h3 {
+  background: #FFF3E0;
+  padding: 8px;
+  border-radius: 8px;
+  color: #2C3E50;
+}
+
+.menu-block ul {
+  list-style: none;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+
+.menu-block li {
+  margin-bottom: 5px;
+}
+
+/* GALLERY */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* HOURS */
+.hours iframe {
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+/* CONTACT */
+.contact .cta-button {
+  margin-top: 10px;
+}
+
+.section-image {
+  width: 100%;
+  max-height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  font-size: 0.9rem;
+  margin-top: 40px;
+  color: #666;
+}
